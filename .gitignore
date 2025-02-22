@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# Debug files
+*.pdb
+
+# Visual Studio build directories
+Debug/
+Release/
+x64/Debug/
+x64/Release/
+
