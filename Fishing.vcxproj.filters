@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{6ac9c839-783c-48c8-a87e-34e24fbe2878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Tools">
+      <UniqueIdentifier>{d22c21d3-8ff5-4f5c-b27f-83e5134a588b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Tools\Common">
+      <UniqueIdentifier>{f0a8e787-3d36-4740-9051-26625a960006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Tools\Config">
+      <UniqueIdentifier>{4774cbea-ea67-4768-b5ca-17af65647f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Engine">
+      <UniqueIdentifier>{b8cf17a8-ffc6-4c41-aab3-d05c5b775095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sea">
+      <UniqueIdentifier>{7b5d3210-8657-4734-a423-21eed67b4b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sky">
+      <UniqueIdentifier>{9f8cfc72-8eaa-49cb-9611-508d8d0a7414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Border">
+      <UniqueIdentifier>{f43167b3-0df3-417f-b52f-8b1672cf4da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boat">
+      <UniqueIdentifier>{7db00e31-e9f6-4481-a98c-2c381cacd140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sea_Floor">
+      <UniqueIdentifier>{6b0dcf3d-c49b-4496-b786-74c81b0521d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fisherman">
+      <UniqueIdentifier>{af025505-08e2-444e-8905-c05a4a1dcaab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fishing_Rod">
+      <UniqueIdentifier>{45e2291d-8fc9-49fb-a30e-6009f103be47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fishing_Line">
+      <UniqueIdentifier>{2762e635-3ebb-457e-ba0b-9a84ee03583c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fishing_Hook">
+      <UniqueIdentifier>{994eea61-b57a-4311-aa8d-f3408e69451d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{a8491868-7df7-4cb7-8619-b61ddb7b2f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shell">
+      <UniqueIdentifier>{a81603ff-5f0e-416c-b813-78f0827ed626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floating_Pearl">
+      <UniqueIdentifier>{7cd936a3-509d-4f86-baed-8f061dde8500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fish">
+      <UniqueIdentifier>{0bb52ba2-d9f1-43f5-976d-1ff9a684a8ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fish_Set">
+      <UniqueIdentifier>{643285f3-8b88-4ce7-9e3c-00d85dedfac2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>#Tools\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>#Tools\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Main\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\gdiplus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sea.h">
+      <Filter>Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Border.h">
+      <Filter>Border</Filter>
+    </ClInclude>
+    <ClInclude Include="Boat.h">
+      <Filter>Boat</Filter>
+    </ClInclude>
+    <ClInclude Include="Sea_Floor.h">
+      <Filter>Sea_Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="Fisherman.h">
+      <Filter>Fisherman</Filter>
+    </ClInclude>
+    <ClInclude Include="Fishing_Rod.h">
+      <Filter>Fishing_Rod</Filter>
+    </ClInclude>
+    <ClInclude Include="Fishing_Line.h">
+      <Filter>Fishing_Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Fishing_Hook.h">
+      <Filter>Fishing_Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell.h">
+      <Filter>Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="Floating_Pearl.h">
+      <Filter>Floating_Pearl</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish.h">
+      <Filter>Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish_Set.h">
+      <Filter>Fish_Set</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Fishing.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fishing.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>#Tools\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>#Tools\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Main\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sea.cpp">
+      <Filter>Sea</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Border.cpp">
+      <Filter>Border</Filter>
+    </ClCompile>
+    <ClCompile Include="Boat.cpp">
+      <Filter>Boat</Filter>
+    </ClCompile>
+    <ClCompile Include="Sea_Floor.cpp">
+      <Filter>Sea_Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="Fisherman.cpp">
+      <Filter>Fisherman</Filter>
+    </ClCompile>
+    <ClCompile Include="Fishing_Rod.cpp">
+      <Filter>Fishing_Rod</Filter>
+    </ClCompile>
+    <ClCompile Include="Fishing_Line.cpp">
+      <Filter>Fishing_Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Fishing_Hook.cpp">
+      <Filter>Fishing_Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Shell.cpp">
+      <Filter>Shell</Filter>
+    </ClCompile>
+    <ClCompile Include="Floating_Pearl.cpp">
+      <Filter>Floating_Pearl</Filter>
+    </ClCompile>
+    <ClCompile Include="Fish.cpp">
+      <Filter>Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="Fish_Set.cpp">
+      <Filter>Fish_Set</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

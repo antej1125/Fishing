@@ -1,0 +1,8 @@
+﻿  Config.cpp
+  Engine.cpp
+D:\Fishing_Beckaps\Fishing_18\Fish.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Engine.cpp')
+  
+  Sky.cpp
+  Generating Code...
+  Fishing.vcxproj -> D:\Fishing_Beckaps\Fishing_18\x64\Debug\Fishing.exe

@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/work/fishing/fishing_rod.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "580f556ea5ce416db0efe0b789c5c3fe6311f33613b81fb4dbbc76ac333db7af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/work/fishing/fishing_rod.h"
+          },
+          "hashes": {
+            "sha-256": "638b3008e70cb9d6ac3a2c33bb87c144135e8391bc0613b9137fe250cb462ec8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/work/fishing/config.h"
+          },
+          "hashes": {
+            "sha-256": "aaca9baf3144e312d76500ab0d1f3ee14ff04e2bf9675e3dbc116c11e8d2240a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/work/fishing/common.h"
+          },
+          "hashes": {
+            "sha-256": "565c2eef5c08259ba819d9d873aa6f94be4d55990941b5dc635754840d28632b"
+          }
+        }
+      ]
+    }
+  ]
+}
